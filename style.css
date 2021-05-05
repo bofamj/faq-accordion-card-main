@@ -1,0 +1,196 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	Font: 12px;
+}
+.maine {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(273, 75%, 66%);
+}
+.contant {
+	width: 80vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 20px;
+	position: relative;
+}
+.photo {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	height: 80vh;
+	flex: 1;
+	position: relative;
+}
+.photo .pat {
+	width: 30vw;
+	height: 50vh;
+	position: absolute;
+	top: 20vh;
+	left: -5vw;
+}
+.mm {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	height: 100vh;
+	flex: 1;
+	position: relative;
+}
+.photo .box {
+	width: 15vw;
+	height: 30vh;
+	left: 10px;
+	position: absolute;
+	top: 22vh;
+	left: -10vw;
+}
+.photo .wom {
+	width: 30vw;
+	height: 40vh;
+	position: absolute;
+	top: 20vh;
+	left: -5vw;
+}
+
+.cos {
+	width: 60vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	flex: 1;
+	padding-top: 0;
+}
+.logo {
+	height: 10vh;
+	width: 39vw;
+	margin-top: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+h4 {
+	position: relative;
+	padding-bottom: 10px;
+}
+.arrow {
+	position: absolute;
+	right: 30px;
+	cursor: pointer;
+}
+.arr1 {
+	position: absolute;
+	right: -70%;
+}
+.cos1 {
+	height: 10vh;
+	width: 39vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 2px solid hsl(240, 5%, 91%);
+	padding-bottom: 10px;
+}
+.anser {
+	display: none;
+}
+.cosshow1 {
+	display: inline-flex;
+}
+
+.cos2 {
+	margin: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 2px solid hsl(240, 5%, 91%);
+	padding-bottom: 10px;
+	height: 10vh;
+	width: 39vw;
+}
+.anser1 {
+	display: none;
+}
+.cosshow2 {
+	display: inline-flex;
+}
+
+.cos3 {
+	margin: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 2px solid hsl(240, 5%, 91%);
+	padding-bottom: 10px;
+	height: 10vh;
+	width: 39vw;
+}
+.anser2 {
+	display: none;
+}
+.cosshow3 {
+	display: inline-flex;
+}
+
+.cos4 {
+	margin: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 2px solid hsl(240, 5%, 91%);
+	padding-bottom: 10px;
+	height: 10vh;
+	width: 39vw;
+}
+.anser3 {
+	display: none;
+}
+.cosshow4 {
+	display: inline-flex;
+}
+.cos5 {
+	margin: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-right: 10px;
+	margin-bottom: 100px;
+	border-bottom: 2px solid hsl(240, 5%, 91%);
+	padding-bottom: 10px;
+	height: 10vh;
+	width: 39vw;
+	margin-left: 10px;
+}
+.anser4 {
+	display: none;
+}
+.cosshow5 {
+	display: inline-flex;
+}
+h4:hover {
+	color: hsl(14, 88%, 65%);
+}
